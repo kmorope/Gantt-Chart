@@ -8,7 +8,7 @@ var taskStatus = {
     "KILLED" : "bar-killed"
 };
 
-var taskNames = [ "D Job", "P Job", "E Job", "A Job", "N Job" ];
+var taskNames = [ "D Job", "P Job", "E Job", "A Job", "N Job","D Job", "P Job", "E Job", "A Job", "N Job","D Job", "P Job", "E Job", "A Job", "N Job" ];
 
 tasks.sort(function(a, b) {
     return a.endDate - b.endDate;
